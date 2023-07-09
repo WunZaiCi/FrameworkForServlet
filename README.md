@@ -1,2 +1,2 @@
 # banmaFramework
-一个servlet框架
+A simple framework of servlet
