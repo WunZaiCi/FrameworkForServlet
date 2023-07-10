@@ -26,6 +26,20 @@
  <servlet>
  	<servlet-name>dispatcherServlet</servlet-name>
  	<servlet-class>com.banmaFramework.servlet.DispatcherServlet</servlet-class>
+ 	<init-param>
+ 		<param-name>prefix</param-name>
+ 		<param-value>/WEB-INF/jsp</param-value>
+ 	</init-param>
+ 	<init-param>
+ 		<param-name>suffix</param-name>
+ 		<param-value>.jsp</param-value>
+ 	</init-param>
+ 	<init-param>
+ 		<param-name>basePackage</param-name>
+ 		<param-value>com.banmaFramework</param-value>
+ 	</init-param>
+ 	
+ 	<load-on-startup>1</load-on-startup>
  </servlet>
 
 <servlet-mapping>
